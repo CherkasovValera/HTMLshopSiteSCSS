@@ -152,6 +152,142 @@ summary::-webkit-details-marker {
   color: #F16D7F;
 }
 
+.filter_sort {
+  display: flex;
+  flex-direction: row;
+  gap: 320px;
+}
+
+.filter {
+  width: 100%;
+  padding: 13px 16px 16px;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+}
+
+.filter-box {
+  position: relative;
+  height: 40px;
+  width: 360px;
+}
+
+.filter__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
+.filter__link:hover {
+  color: #F16D7F;
+}
+
+.filter__box {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  gap: 11px;
+}
+
+.filter-sort {
+  padding-top: 39px;
+  display: flex;
+  gap: 30px;
+}
+
+.filter__summary {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+.filter[open] {
+  background: #FFFFFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+}
+
+.filter[open] .filter__summary {
+  color: #F16D7F;
+}
+
+.filter[open] .filter__img path {
+  fill: #F16D7F;
+}
+
+.filter__category {
+  margin-top: 16px;
+}
+
+.filter__category-summary {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  padding: 8px 11px 11px;
+  border-left: 5px solid #F16D7F;
+  border-bottom: 1px solid #EBEBEB;
+}
+
+.filter__category[open] .filter__category-summary {
+  color: #F16D7F;
+}
+
+.sort {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.sort__details {
+  position: relative;
+}
+
+.sort__summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sort__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 79px;
+  padding: 7px 9px 11px;
+  background: #FFFFFF;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  z-index: 1;
+  top: 22px;
+  left: -9px;
+}
+
+.catalog_number_page__box {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 15px;
+  /*border: 1px solid #EBEBEB;
+  border-radius: 3px;*/
+  margin-bottom: 97px;
+}
+
+.product__page {
+  color: #C4C4C4;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.real_page {
+  color: #F16D7F;
+}
+
 .slider {
   height: 777px;
   display: flex;
@@ -254,6 +390,7 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 114px;
 }
 .product_content .product_content_top_title {
   color: #F16D7F;
