@@ -769,17 +769,14 @@ summary::-webkit-details-marker {
   gap: 28px;
   align-items: center;
 }
-
 .sort__details {
   position: relative;
 }
-
 .sort__summary {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-
 .sort__content {
   position: absolute;
   display: flex;
@@ -869,6 +866,19 @@ summary::-webkit-details-marker {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.registration {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  gap: 128px;
+}
+.registration__form {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .subscribl_box {
@@ -988,19 +998,16 @@ summary::-webkit-details-marker {
   justify-content: space-between;
   align-items: center;
 }
-
 .footer__left {
   display: flex;
   align-items: center;
   gap: 41px;
 }
-
 .footer__right {
   display: flex;
   align-items: center;
   gap: 7px;
 }
-
 .footer_text {
   color: #FBFBFB;
   font-family: Lato;
@@ -1009,7 +1016,6 @@ summary::-webkit-details-marker {
   font-weight: 400;
   line-height: normal;
 }
-
 .footer_win {
   display: flex;
   width: 32px;
@@ -1020,7 +1026,6 @@ summary::-webkit-details-marker {
   align-items: center;
   justify-content: center;
 }
-
 .footer_win:hover {
   border: 1px solid #4491c4;
   border-bottom-width: 212px;
