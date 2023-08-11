@@ -869,7 +869,7 @@ summary::-webkit-details-marker {
 }
 
 .registration {
-  margin-top: 96px;
+  margin-top: 64px;
   display: flex;
   justify-content: space-between;
   gap: 128px;
@@ -878,7 +878,7 @@ summary::-webkit-details-marker {
   max-width: 360px;
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 34px;
 }
 
 .subscribl_box {
