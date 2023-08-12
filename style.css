@@ -868,6 +868,199 @@ summary::-webkit-details-marker {
   align-items: center;
 }
 
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.cart {
+  margin-top: 96px;
+  /* right side */
+}
+.cart__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.cart__left-side {
+  display: flex;
+  flex-direction: column;
+  max-width: 652px;
+}
+.cart__card {
+  max-width: 652px;
+  display: flex;
+  box-shadow: 17px 19px 24px 0px rgba(0, 0, 0, 0.1294117647);
+  margin-bottom: 40px;
+  position: relative;
+}
+.cart__card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  padding: 20px 100px 60px 30px;
+}
+.cart__card-description h3 {
+  font-size: 24px;
+  line-height: 29px;
+}
+.cart__card-description__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cart__card-description__fields p {
+  color: #575757;
+  font-size: 22px;
+  line-height: 26px;
+}
+.cart__card-description__fields p input {
+  width: 44px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #656565;
+  font-size: 18px;
+  line-height: 22px;
+  padding-left: 14px;
+  margin-left: 24px;
+  border: 1px solid #eaeaea;
+}
+.cart__card-description__fields_red {
+  color: #ef5b70;
+}
+.cart__card-description__fields_grey {
+  color: #6f6e6e;
+}
+.cart__close {
+  position: absolute;
+  top: 28px;
+  right: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.cart__close:hover svg {
+  transform: scale(1.2);
+  fill: #ef5b70;
+  transition: all 0.2s ease-in-out;
+}
+.cart__btns-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.cart__btn {
+  border: 1px solid #a4a4a4;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  padding: 16px 40px;
+  background: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.cart__btn:hover {
+  background-color: #ef5b70;
+  color: #fff;
+}
+.cart__right-side {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 57px;
+}
+.cart__form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  width: 100%;
+}
+.cart__form h2 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+}
+.cart__form input {
+  width: 360px;
+  height: 45px;
+  border: 1px solid #a4a4a4;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  padding: 0 17px;
+}
+.cart__form input::-moz-placeholder {
+  color: #b1b1b1;
+}
+.cart__form input::placeholder {
+  color: #b1b1b1;
+}
+.cart__form button {
+  border: 1px solid #a4a4a4;
+  color: #4a4a4a;
+  font-size: 11px;
+  font-weight: 300;
+  background: none;
+  cursor: pointer;
+  padding: 11px 15px;
+  transition: all 0.2s ease-in-out;
+}
+.cart__form button:hover {
+  background-color: #ef5b70;
+  color: #fff;
+}
+.cart__total {
+  background: #f5f3f3;
+  padding: 40px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.cart__total-subtotal {
+  color: #4a4a4a;
+  font-size: 11px;
+  line-height: 13px;
+  margin-bottom: 12px;
+}
+.cart__total-subtotal span {
+  margin-left: 30px;
+}
+.cart__total-grandtotal {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  margin-bottom: 21px;
+}
+.cart__total-grandtotal span {
+  margin-left: 30px;
+  color: #f16d7f;
+  font-weight: 700;
+}
+.cart__total button {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  padding: 15px 34px;
+  background-color: #f16d7f;
+  border: none;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: all 0.2s ease-in-out;
+}
+.cart__total button:hover {
+  background: none;
+  color: #f16d7f;
+  border: 1px solid rgb(241, 107, 127);
+}
+.cart__line {
+  width: 275px;
+  height: 1px;
+  background-color: #e2e2e2;
+  margin-bottom: 17px;
+}
+
 .registration {
   margin-top: 64px;
   margin-bottom: 96px;
@@ -964,13 +1157,17 @@ summary::-webkit-details-marker {
   color: #b1b1b1;
 }
 .registration__formdouwn button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 167px;
   border: 1px solid #a4a4a4;
   color: #fff;
   font-size: 14px;
   font-weight: 300;
   background: #ef5b70;
   cursor: pointer;
-  padding: 11px 15px;
+  padding: 15px 29px;
   transition: all 0.2s ease-in-out;
 }
 .registration__formdouwn button:hover {
