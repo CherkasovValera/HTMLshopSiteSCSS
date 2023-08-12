@@ -1041,18 +1041,116 @@ line-height: normal;
   }
   .registration{
     margin-top: 64px;
+    margin-bottom: 96px;
     display: flex;
 		justify-content: space-between;
     gap: 128px;
     &__left{
       
+      
 
     }
-    &__form{
+    &__formup{
       max-width: 360px;
 			display: flex;
 			flex-direction: column;
-			gap: 34px;
+			gap: 20px;
+      margin-bottom: 34px;
+      h2{
+        color: #222;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      p{
+        color: #B1B1B1;
+        font-family: Lato;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      input {
+        width: 360px;
+        height: 45px;
+        border: 1px solid #a4a4a4;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        padding: 0 17px;
+  
+        &::placeholder {
+          color: #b1b1b1;
+        }      
+      }      
+    }
+    &__formcentr{
+      display: flex;
+      gap: 20px;
+      margin-bottom: 34px;
+      color: #000;
+      font-family: Lato;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+
+    }
+    &__formdouwn{
+      max-width: 360px;
+			display: flex;
+			flex-direction: column;
+			gap: 20px;
+      h2{
+        color: #222;
+        font-family: Lato;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      p{
+        color: #B1B1B1;
+        font-family: Lato;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+      }
+      input {
+        width: 360px;
+        height: 45px;
+        border: 1px solid #a4a4a4;
+        font-family: 'Lato', sans-serif;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        padding: 0 17px;
+  
+        &::placeholder {
+          color: #b1b1b1;
+        }      
+      }
+      button {
+        border: 1px solid #a4a4a4;
+        color: #4a4a4a;
+        font-size: 14px;
+        font-weight: 300;
+        background: none;
+        cursor: pointer;
+        padding: 11px 15px;
+        transition: all 0.2s ease-in-out;
+  
+        &:hover {
+          background-color: #ef5b70;
+  
+          color: #fff;
+        }
+      }
+
     }
   }
   .subscribl_box{
