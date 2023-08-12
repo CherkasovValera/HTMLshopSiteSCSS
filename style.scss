@@ -1046,9 +1046,6 @@ line-height: normal;
 		justify-content: space-between;
     gap: 128px;
     &__left{
-      
-      
-
     }
     &__formup{
       max-width: 360px;
@@ -1136,21 +1133,56 @@ line-height: normal;
       }
       button {
         border: 1px solid #a4a4a4;
-        color: #4a4a4a;
+        color: #fff;
         font-size: 14px;
         font-weight: 300;
-        background: none;
+        background: #ef5b70;
         cursor: pointer;
         padding: 11px 15px;
         transition: all 0.2s ease-in-out;
   
         &:hover {
-          background-color: #ef5b70;
+          background-color: #fff;
   
-          color: #fff;
+          color: #ef5b70;
         }
+        &:hover path {
+          fill: #ef5b70;
+        } 
       }
 
+    }
+    &__right{
+      h2{
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 22px;
+      }
+      h3{
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 21px;
+      }
+      p{
+        display: flex;
+        align-items: center;
+        color: #000;
+        font-family: Lato;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        gap: 23px;
+        margin-bottom: 16px;
+      }
     }
   }
   .subscribl_box{

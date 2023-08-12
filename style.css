@@ -965,17 +965,50 @@ summary::-webkit-details-marker {
 }
 .registration__formdouwn button {
   border: 1px solid #a4a4a4;
-  color: #4a4a4a;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
-  background: none;
+  background: #ef5b70;
   cursor: pointer;
   padding: 11px 15px;
   transition: all 0.2s ease-in-out;
 }
 .registration__formdouwn button:hover {
-  background-color: #ef5b70;
-  color: #fff;
+  background-color: #fff;
+  color: #ef5b70;
+}
+.registration__formdouwn button:hover path {
+  fill: #ef5b70;
+}
+.registration__right h2 {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+.registration__right h3 {
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 21px;
+}
+.registration__right p {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: Lato;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  gap: 23px;
+  margin-bottom: 16px;
 }
 
 .subscribl_box {
