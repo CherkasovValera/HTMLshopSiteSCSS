@@ -6,6 +6,7 @@ $backBlockColor: #222;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   body {
@@ -1048,6 +1049,7 @@ line-height: normal;
 		&__wrapper {
 			display: flex;
 			justify-content: space-between;
+      flex-wrap: wrap;
 		}
 
 		&__left-side {
@@ -1654,7 +1656,38 @@ line-height: normal;
       background-repeat: no-repeat;    
     background-image: url("img/subscribe.jpg");
     }
+    .product-none{
+      display: none;
+    }
+    .cart {
+      margin-top: 96px;
+      &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      &__btns-list{
+        justify-content: center;
+        gap: 48px;
+        margin-bottom: 64px;
+      }
+      &__right-side{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 128px;
+      }
   }
+  .registration__right{
+    h2, h3, p{
+      font-size: 16px;
+    }
+  }
+
+}
+  
   @media screen and (min-width: 320px) and (max-width:767px){
     .center {
       padding-left: calc(50% - 171.5px);
@@ -1761,5 +1794,8 @@ line-height: normal;
       align-items: center;
       justify-content: space-between;
       flex-direction: column-reverse;
+    }
+    .product-none{
+      display: none;
     }
   }
