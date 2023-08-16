@@ -11,6 +11,7 @@ $backBlockColor: #222;
   
   body {
     font-family: 'Lato', sans-serif;
+    overflow: hidden;
   }
   
   img {
@@ -339,8 +340,7 @@ $backBlockColor: #222;
     justify-content: center;
     gap: 18px;
     padding: 15px;
-    /*border: 1px solid #EBEBEB;
-    border-radius: 3px;*/
+    
     margin-bottom: 97px;
 }
 .product__page{
@@ -989,6 +989,7 @@ line-height: normal;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin-bottom: 10px;
   }
   
   .slider__arrow {
@@ -1586,6 +1587,9 @@ line-height: normal;
     
     
   @media screen and (min-width: 768px) and (max-width:1024px){
+    .body{
+      overflow-x: hidden;
+    }
     .center {
       padding-left: calc(50% - 368px);
       padding-right: calc(50% - 368px);

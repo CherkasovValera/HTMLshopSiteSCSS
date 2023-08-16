@@ -6,6 +6,7 @@
 
 body {
   font-family: "Lato", sans-serif;
+  overflow: hidden;
 }
 
 img {
@@ -271,8 +272,6 @@ summary::-webkit-details-marker {
   justify-content: center;
   gap: 18px;
   padding: 15px;
-  /*border: 1px solid #EBEBEB;
-  border-radius: 3px;*/
   margin-bottom: 97px;
 }
 
@@ -830,6 +829,7 @@ summary::-webkit-details-marker {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .slider__arrow {
@@ -1366,6 +1366,9 @@ summary::-webkit-details-marker {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .body {
+    overflow-x: hidden;
+  }
   .center {
     padding-left: calc(50% - 368px);
     padding-right: calc(50% - 368px);
