@@ -1583,6 +1583,58 @@ summary::-webkit-details-marker {
     background-position: 0%;
     flex-direction: column;
     margin-bottom: 0px;
+    gap: 60px;
+  }
+  .top-head {
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  .cart {
+    margin-top: 60px;
+  }
+  .cart__wrapper {
+    justify-content: center;
+  }
+  .cart__card-description {
+    padding: 0px;
+    gap: 26px;
+    display: flex none;
+  }
+  .cart__card-description__fields {
+    gap: 0px;
+    line-height: 0%;
+  }
+  .cart__card {
+    gap: 17px;
+  }
+  .cart__card h3 {
+    font-size: 16px;
+    width: 170px;
+  }
+  .cart__card p {
+    font-size: 14px;
+  }
+  .cart__card img {
+    width: 145px;
+    height: 190px;
+  }
+  .cart__close {
+    top: 0px;
+  }
+  .cart__btns-list {
+    margin-top: 0px;
+    gap: 9px;
+  }
+  .cart__btn {
+    font-size: 12px;
+    padding: 16px 18px;
+    gap: 9px;
+  }
+  .cart__left-side {
+    margin-bottom: 48px;
+  }
+  .cart__total {
+    margin-bottom: 96px;
   }
   .subscribe_txt {
     text-align: center;

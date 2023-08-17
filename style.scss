@@ -1820,6 +1820,57 @@ line-height: normal;
       background-position: 0%;
       flex-direction: column;
       margin-bottom: 0px;
+      gap: 60px;
+    }
+    .top-head{
+      padding-top: 50px ;
+      padding-bottom: 70px;
+    }
+    .cart{
+      margin-top: 60px;
+      &__wrapper{
+        justify-content: center;
+      }
+      &__card-description{
+        padding: 0px;
+        gap: 26px;
+        display: flex none;
+        &__fields{
+          gap: 0px;
+          line-height: 0%;
+        }
+      }
+      &__card{
+        h3 {
+          font-size: 16px;
+          width: 170px;
+        }
+        p{
+          font-size: 14px;          
+        }        
+        img {width: 145px;
+          height: 190px;        
+        }
+      gap: 17px;
+      }
+      &__close{        
+        top: 0px;
+      }
+      &__btns-list{
+        margin-top: 0px;
+        gap: 9px;
+      }
+      &__btn{
+        font-size: 12px;
+        padding: 16px 18px;
+        gap: 9px;
+      }
+      &__left-side{
+        margin-bottom: 48px;
+      }
+      &__total{
+        margin-bottom: 96px;
+      }
     }
     .subscribe_txt{
       text-align: center;
@@ -1834,9 +1885,9 @@ line-height: normal;
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: 153.2%;
-  
+      line-height: 153.2%;  
     }
+    
     .footer{
       padding: 34px 0px 9px 0px;
       align-items: center;
