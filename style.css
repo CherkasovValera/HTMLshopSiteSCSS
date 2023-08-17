@@ -1574,6 +1574,12 @@ summary::-webkit-details-marker {
     gap: 0px;
     padding: 0px 30px 0px 0px;
   }
+  .product__content_text {
+    max-width: 320px;
+  }
+  .filter_details {
+    font-size: 10px;
+  }
   .sort__summary {
     font-size: 12px;
   }
